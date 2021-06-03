@@ -1,0 +1,44 @@
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-brand{
+  font-weight: bolder;
+  background-color: rgb(60, 191, 196);
+  color: white;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 0%;
+  margin-right: 2%;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: white;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 991px) {
+.navbar {
+  background-color:rgb(60, 191, 196);
+}
+.navbar-nav{
+  background-color: whitesmoke;
+  margin-left: 0%;
+  padding-left: 2%;
+}}
+
+.navbar-toggler{
+  background-color: rgb(60, 191, 196);
+  margin-right: 10px;
+}
+
+.dropdown-menu{
+  position: absolute;
+}
