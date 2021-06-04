@@ -44,8 +44,20 @@ body {
 }
 
 .container{
+  padding: 3%;
+  margin-top: 20px;
+}
+
+.container-col-l{
   padding: 5%;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.container-col-r{
+  padding: 3%;
+  margin-top: 15px;
+  margin-right: 25px;
 }
 
 h1{
@@ -80,6 +92,11 @@ p{
 hr.solid {
   border-top: 1px solid;
   color: whitesmoke;
+}
+
+hr.solid-dark {
+  border-top: 1px solid;
+  color: gainsboro;
 }
 
 .jumbotron{
