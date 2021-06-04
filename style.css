@@ -43,11 +43,9 @@ body {
   background-color: whitesmoke;
 }
 
-.jumbotron{
+.container{
   padding: 5%;
-  background-color: white;
-  align-self: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 h1{
@@ -55,6 +53,8 @@ h1{
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
+  margin-top: 8px;
+  padding-top: 8px;
 }
 
 h2{
@@ -62,15 +62,36 @@ h2{
   font-size: 29px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
+  margin-top: 8px;
 }
 
 p{
-  text-align: justify;
+  text-align: left;
   font-size: 16px;
   font-weight: lighter;
+  padding-bottom: 2%;
 }
 
 .float-left{
   height: 170px;
   margin-right: 15px;
+}
+
+hr.solid {
+  border-top: 1px solid;
+  color: whitesmoke;
+}
+
+.jumbotron{
+  background-color: white;
+  padding: 2%;
+}
+
+h3{
+  color: rgb(89, 218, 223);
+  font-size: 29px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
 }
