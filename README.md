@@ -1,2 +1,4 @@
-# web-design-challenge
+# LATITUDE
+## Web Design Challenge
+
 Repository for my Web homework from my Data Bootcamp. For this assignment, I venture into Web Design using HTML language.
