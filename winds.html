@@ -1,0 +1,98 @@
+<!-- Web Design Homework -->
+<!-- Landing Page -->
+<!-- Visualization for Wind Speed-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Page Title -->
+    <title>Wind Speed - Latitude</title>
+
+    <!-- Bootstrap CSS Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="maxtemperature.html">Max. Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="winds.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparisons.html">Comparisons <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="row">
+      <div class="col-md-8">
+        <div class="container-col-l bg-white">
+          <h1>Wind Speed</h1>
+          <hr class="solid-dark">
+          <img src="resources/assets/images/Fig4.png" alt="..." class="img-thumbnail"> 
+          <br>
+          <br>
+          <p>This plot shows the relationship between the latitude and the humidity measured in a region.
+            The closer to zero represents the closer the city is to the equator.
+            There was not a clear tendency in this measurements, as cloudiness percentage is scattered
+            with high and low values all throughout the latitudes. </p>
+        </div>
+    </div>
+      <div class="col-md-4">
+        <div class="container-col-r bg-white">
+          <h2>Visualizations</h2>
+          <hr class="solid-dark">
+          <div class="row justify-content-md-center">
+            <div class="col">
+              <a href="maxtemperature.html">
+              <img src="resources/assets/images/Fig1.png" alt="..." class="img-thumbnail border-white"></a>
+            </div>
+            <div class="col">
+              <a href="humidity.html">
+              <img src="resources/assets/images/Fig2.png" alt="..." class="img-thumbnail border-white"></a>
+            </div>
+          </div>
+          <br>
+          <div class="row justify-content-md-center">
+            <div class="col">
+              <a href="cloudiness.html">
+              <img src="resources/assets/images/Fig3.png" alt="..." class="img-thumbnail border-white"></a>
+            </div>
+            <div class="col">
+              <a href="winds.html">
+              <img src="resources/assets/images/Fig4.png" alt="..." class="img-thumbnail border-info"></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
